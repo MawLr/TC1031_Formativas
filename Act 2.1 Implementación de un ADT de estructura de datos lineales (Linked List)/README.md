@@ -1,7 +1,7 @@
 ### Análisis de Cmplejidad
 
 ## Find
-El algoritmo busca encontrar un número en un índice especificado haciendo uso de un ciclo _while_ que recorre toda la lista hasta encontrar el que encuentra
+El algoritmo busca encontrar un número en un índice especificado haciendo uso de un ciclo _while_ que recorre toda la lista hasta encontrar el que contiene
 la poscición del que se busca, devolviendola o en caso de no existir, devolviendo la poscición -1, dicho lo anterior, su complejidad temporal es O(n), es decir,
 lineal para el peor de los casos, ya que sólo recorre n número de elementos en la lista.
 
