@@ -6,7 +6,7 @@ la poscición del que se busca, devolviendola o en caso de no existir, devolvien
 lineal para el peor de los casos, ya que sólo recorre n número de elementos en la lista.
 
 ## Update
-El algoritmo en esta función tiene como objetivo actualizar un número en un índice, amobos especificados en los parámetros de la función, para hacer esto el indice
+El algoritmo en esta función tiene como objetivo actualizar un número en un índice, ambos especificados en los parámetros de la función, para hacer esto el indice
 se busca haciendo uso de un ciclo _while_ que recorre la lista hasta encontrar el índice al encontrarlo se actualiza el valor contenido, dicho lo anterior
 su complejidad temporal es O(n) para el por de los casos, pues al igual que otras funciones, sólo recorre n número de elementos de la lista.
 
