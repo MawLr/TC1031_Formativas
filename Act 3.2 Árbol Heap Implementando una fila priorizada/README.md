@@ -6,16 +6,18 @@ de tamaños, siendo así podemos decir que sigue instrucciones sin mucha complej
 en dónde debe insertar, por lo que podemos concluir que su complejidad temporal es O(log n), es decir, logaritmica, para el peor de los casos.
 
 ## pop
-El algoritmo busca simplemente remover elementos del árbol sin hacer uso de ningún ciclo, por lo que son sólo una serie de sencillas instrucciones que llaman a la
-función _heapify()_ para poder correctamente organizar
+El algoritmo busca simplemente remover elementos del árbol sin hacer uso de ningún ciclo, igual que _push_, el algoritmo logra encontrar los valores que se desean eliminar y
+order de nuevo con el uso de _heapify()_ de manera rápida y eficiente por lo que podemos concluir que su complejidad temporal es O(log n), es decir, logaritmica para el peor
+de los casos.
 
 ## top
-Nuevamente tenemos un algoritmo que hace usos de ciclos _if_ con recursión recorriendo n pasos para en este caso encontrar todos los nodos anterior a este y la raíz del árbol,
-dado a que hace uso de ciclos _if_ para hacer instrucciones lineales podemos deducir que la complejidad temporal es O(n), es decir, lineal para el peor de los casos.
+El algoritmo únicamente busca obtener la raíz del árbol siguiendo un set de instrucciones que nunca cambia, dicho esto podemos cocnluir que su complejidad temporal es O(1), es
+decir, constante para el peor de los casos.
 
 ## empty
-El algoritmo busca encontrar el nivel en que se encuentra un valor dado como parámetro de la función, para hacer esto hace uso, nuevamente, de ciclos _if_ recorriendo n pasos, 
-los cuales devuelven el nivel, devolviendo -1 en caso de no existir, al ser ciclos que sólo siguen instrucciones lineales podemos decir que 
-la complejidad temporal es O(n), es decir, lineal para el peor de los caso.
+El algoritmo busca hacer un pequeño chequeo en caso de que el arbol esté vacío, siguiende un set de instrucciones que nunca cambia, dicho lo anterior podemos decir que su
+complejidad temporal es O(1), es decir, constante para el peor de los casos.
 
 ## size
+Al igual que las últimas dos funciones, esta tiene solo un set de instrucciones que nunca cambian, esta vez dirigidas a devolver el tamaño del árbol, por esto podemos decir que
+su cpomplejidad temporal es O(1), es decir, constante para el peor de los casos.
