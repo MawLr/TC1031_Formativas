@@ -7,7 +7,7 @@ en dónde debe insertar, por lo que podemos concluir que su complejidad temporal
 
 ## pop
 El algoritmo busca simplemente remover elementos del árbol sin hacer uso de ningún ciclo, igual que _push_, el algoritmo logra encontrar los valores que se desean eliminar y
-order de nuevo con el uso de _heapify()_ de manera rápida y eficiente por lo que podemos concluir que su complejidad temporal es O(log n), es decir, logaritmica para el peor
+ordenar de nuevo con el uso de _heapify()_ de manera rápida y eficiente por lo que podemos concluir que su complejidad temporal es O(log n), es decir, logaritmica para el peor
 de los casos.
 
 ## top
