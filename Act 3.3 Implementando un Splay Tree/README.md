@@ -13,7 +13,7 @@ para el peor de los casos.
 
 ## find
 El algoritmo unicamente busca encontrar el valor ingresado como parametro arrojando un valor booleano en caso de encontrarlo o no implementando recursividad, por lo
-que podemos decir que su complejidad temporal es O(n), es decir, lineal para el peor de los casos.
+que podemos decir que su complejidad temporal es O(log n), es decir, logaritmica, para el peor de los casos.
 
 ## inorder
 El algoritmo busca desplegar en inorder los contenidos del arbol splay en un string, dado a que utiliza varios _if_ con recursividad podemos decir que su
