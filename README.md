@@ -1,2 +1,4 @@
-# TC1031_Formativas
-Actividades formativas de la clase TC1031
+# CORRECCIONES
+Se corrigió la complejidad de función _find()_ en el Splay Tree, estaba como O(n), corregida a O(log n).
+
+Se añadió la formativa 5 funcional.
